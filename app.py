@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app)  # Configuração do CORS para permitir solicitações de qualquer origem
 
 # Chave de API do OpenAI
-openai.api_key = "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"
+openai.api_key = "**********************************************"
 
 # Função para enviar mensagens para o ChatGPT usando a API da OpenAI
 def send_message_to_chatgpt(conversation):
